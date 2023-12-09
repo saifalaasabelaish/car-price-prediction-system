@@ -2,13 +2,11 @@ from flask import Flask, jsonify, request
 import pandas as pd
 import pickle
 
-data = pd.read_csv("C:/Users/USER/Desktop/head.csv")
+data = pd.read_csv("C://Users//USER//Desktop//Machine_learning_car_project//head.csv")
 
-pickle_file = "C://Users//USER//Desktop//model.sav"
+pickle_file = "C://Users//USER//Desktop//Machine_learning_car_project//model.sav"
 
 model = pickle.load(open(pickle_file, "rb"))
-
-data.drop(columns=["Unnamed: 0"],inplace=True)
 
 app = Flask(__name__)
 @app.route("/predict", methods=["POST"])
@@ -26,7 +24,6 @@ def predict():
     engine_power = json_data.get("engine_power")
     sunroof = json_data.get("sunroof")
 
-    data.loc[0] = 0
     data['car_model_' + car_model] = 1
     data["engine_power"] = engine_power
     data['odometer'] = odometer
