@@ -63,7 +63,7 @@ The model is trained using various machine learning algorithms including:
 ## Evaluation
 The model is evaluated using R squared Score
 
-Contributing
+## Contributing
 Contributions are welcome! Please follow these steps to contribute:
 
 ## Fork the repository
