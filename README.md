@@ -8,6 +8,7 @@ This project aims to predict car prices based on real-world data from the Palest
 - [Description](#description)
 - [Goal](#goal)
 - [Features](#features)
+- [Installation](#installation)
 - [Dataset](#dataset)
 - [Model Training](#model-training)
 - [Evaluation](#evaluation)
@@ -36,6 +37,36 @@ The primary aim of this project is to build a robust and efficient car price pre
 - Model training and validation
 - Model evaluation
 - Price prediction for new data
+
+## Installation
+
+To run this project, ensure you have Python 3.7+ and the necessary libraries installed. Follow the steps below to set up the environment:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/saifalaasabelaish/car-price-prediction-system.git
+    ```
+
+2. Navigate to the car-price-prediction-system directory:
+  ```bash
+cd car-price-prediction-system
+
+```
+3. Create a virtual environment:
+    ```bash
+    python -m venv env
+    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    ```
+
+4. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. Run the Jupyter Notebook:
+   ```bash
+   jupyter-notebook
+   ```  
 
 ## Dataset
 
