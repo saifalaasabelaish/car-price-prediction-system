@@ -24,7 +24,7 @@ Accurate car price prediction can benefit buyers, sellers, and market analysts b
 
 ## Description
 
-This Car Price Prediction project is designed to assist individuals in estimating the value of a car based on various features such as make, model, year of manufacture, mileage, engine size, fuel type, and transmission type. By leveraging machine learning algorithms, our application aims to provide accurate and reliable price predictions, helping users make informed decisions when buying or selling cars.
+carGo project is designed to assist individuals in estimating the value of a car based on various features such as make, model, year of manufacture, mileage, engine size, fuel type, and transmission type. By leveraging machine learning algorithms, our application aims to provide accurate and reliable price predictions, helping users make informed decisions when buying or selling cars.
 
 ## Goal
 
