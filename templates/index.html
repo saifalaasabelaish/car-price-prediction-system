@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carGo</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add your dream car info</h1>
+        <table>
+            <tr>
+                <td>Car Origin:</td>
+                <td>
+                    <input type="radio" id="car_origin_private" name="car_origin_private" value="1">
+                    <label for="car_origin_private">Private</label><br>
+                    <input type="radio" id="car_origin_public" name="car_origin_private" value="0">
+                    <label for="car_origin_public">Public</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Seating Capacity:</td>
+                <td><input type="number" id="seating_capacity" min="1" max="7"></td>
+            </tr>
+            <tr>
+                <td>Car Brand:</td>
+                <td><input type="text" id="car_brand"></td>
+            </tr>
+            <tr>
+                <td>Car Model:</td>
+                <td><input type="text" id="car_model"></td>
+            </tr>
+            <tr>
+                <td>Year:</td>
+                <td><input type="number" id="year" min="1886" max="2024"></td>
+            </tr>
+            <tr>
+                <td>Gear Type:</td>
+                <td>
+                    <input type="radio" id="gear_type_automatic" name="gear_type" value="اوتوماتيك">
+                    <label for="gear_type_automatic">Automatic (اوتوماتيك)</label><br>
+                    <input type="radio" id="gear_type_manual" name="gear_type" value="عادي">
+                    <label for="gear_type_manual">Manual (عادي)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Gas Type:</td>
+                <td>
+                    <input type="radio" id="gas_type_gasoline" name="gas_type" value="بنزين">
+                    <label for="gas_type_gasoline">Gasoline (بنزين)</label><br>
+                    <input type="radio" id="gas_type_diesel" name="gas_type" value="سولار">
+                    <label for="gas_type_diesel">Diesel (سولار)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Odometer:</td>
+                <td><input type="number" id="odometer" min="0"></td>
+            </tr>
+            <tr>
+                <td>Engine Power:</td>
+                <td><input type="number" id="engine_power" min="1"></td>
+            </tr>
+            <tr>
+                <td>Sunroof:</td>
+                <td><input type="checkbox" id="sunroof"> Yes</td>
+            </tr>
+        </table>
+        <button onclick="predictPrice()">Predict</button>
+        <h2 id="result"></h2>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
