@@ -8,6 +8,7 @@ carGo is a project that aims to predict car prices based on real-world data from
 - [Description](#description)
 - [Goal](#goal)
 - [Features](#features)
+- [Summary](#Summary)
 - [Installation](#installation)
 - [Dataset](#dataset)
 - [Model Training](#model-training)
@@ -17,6 +18,7 @@ carGo is a project that aims to predict car prices based on real-world data from
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
+
 
 ## Introduction
 
@@ -38,7 +40,20 @@ The primary aim of this project is to build a robust and efficient car price pre
 - Model evaluation
 - Price prediction for new data
 
-## Installation
+## Summary 
+
+Here is a summary 📝 for the purpose of each major module or component in this project:
+
+- **app.py**: The main application file that serves the Flask application.
+- **static**: Contains static assets like CSS, JavaScript, and images.
+- **templates**: Holds the HTML files for rendering the web pages.
+- **models**: Contains the trained machine learning model (`model.sav`).
+- **data_cleaning_code.ipynb**: Jupyter Notebook for data cleaning and preprocessing.
+- **dataset_extraction.ipynb**: Jupyter Notebook for data extraction and exploration.
+- **testing.py**: Script for testing the model's predictions.
+
+  
+## Installation and usage
 
 To run this project, ensure you have Python 3.7+ and the necessary libraries installed. Follow the steps below to set up the environment:
 
@@ -63,10 +78,15 @@ cd carGo
     pip install -r requirements.txt
     ```
 
-5. Run the Jupyter Notebook:
-   ```bash
-   jupyter-notebook
-   ```  
+5. **Run the Application:**
+
+    ```bash
+    python app.py
+    ```
+
+6. **Access the Application:**
+
+    Open a web browser and go to `http://127.0.0.1:5000` to use the application.
 
 ## Dataset
 
@@ -103,13 +123,19 @@ Technologies & Tools used in this project:
 ![Pandas](https://img.shields.io/badge/Pandas-1.2.4-yellow)
 ![NumPy](https://img.shields.io/badge/NumPy-1.20-lightblue)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4-green)
+![Flask](https://img.shields.io/badge/Flask-2.0.1-blue)
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+
 
 ## Prerequisites
 
 - [Python 3.7+](https://www.python.org/downloads/)
 - [Pip](https://pip.pypa.io/en/stable/installation/)
-  
 
+  
+  
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
