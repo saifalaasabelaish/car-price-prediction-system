@@ -44,12 +44,12 @@ To run this project, ensure you have Python 3.7+ and the necessary libraries ins
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/saifalaasabelaish/car-price-prediction-system.git
+    git clone https://github.com/saifalaasabelaish/carGo.git
     ```
 
 2. Navigate to the car-price-prediction-system directory:
   ```bash
-cd car-price-prediction-system
+cd carGo
 
 ```
 3. Create a virtual environment:
