@@ -18,7 +18,6 @@ carGo is a project that aims to predict car prices based on real-world data from
 - [Technologies](#technologies)
 - [Prerequisites](#prerequisites)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 
@@ -142,9 +141,6 @@ Technologies & Tools used in this project:
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
-## Acknowledgements
-
-We would like to thank everyone who contributed to the project, including data providers and community members.
 
 ## Contact
 
