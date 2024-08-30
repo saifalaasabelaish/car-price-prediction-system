@@ -1,4 +1,6 @@
 # carGo
+**Subtitle**: Revolutionizing Vehicle Valuation with AI
+
 
 carGo is a project that aims to predict car prices based on real-world data from the Palestinian market. Using machine learning techniques, the project analyzes various factors influencing car prices and builds a predictive model to estimate the price of a car given its features.
 
