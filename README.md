@@ -68,24 +68,19 @@ To run this project, ensure you have Python 3.7+ and the necessary libraries ins
 cd carGo
 
 ```
-3. Create a virtual environment:
-    ```bash
-    python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
-    ```
 
-4. Install the required dependencies:
+3. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
-5. **Run the Application:**
+4. **Run the Application:**
 
     ```bash
     python app.py
     ```
 
-6. **Access the Application:**
+5. **Access the Application:**
 
     Open a web browser and go to `http://127.0.0.1:5000` to use the application.
 
